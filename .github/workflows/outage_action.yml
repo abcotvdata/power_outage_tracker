@@ -1,0 +1,28 @@
+on:
+    schedule:
+     - cron: '30 * * * *'
+    workflow_dispatch:
+
+name: power outage data
+  
+jobs:
+  render:
+    name: Pull latest outages, update maps
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: r-lib/actions/setup-r@v2
+      - name: Set up pandoc for Rmd docs
+        uses: r-lib/actions/setup-pandoc@v2
+      - name: Install gdal
+        run: |
+          brew install gdal
+      - name: Install dependencies and packages
+        run: Rscript -e 'install.packages(c("tidyverse","stringr","readr","dplyr","tidyr","sf","leaflet","htmlwidgets", "htmltools","leaflet.providers","leaflet.extras","janitor","leaflegend"))'
+      - name: Get outage info
+        run: Rscript scripts/power_outage_scrape_build.R
+      - name: Commit results
+        run: |
+          git add -A
+          git commit -m 'Update maps' || echo "No changes"
+          git push origin || echo "No changes to commit"
