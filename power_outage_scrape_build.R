@@ -199,7 +199,7 @@ bayarea_outage_map <- leaflet(options = leafletOptions(zoomControl = FALSE, hove
   addControl(html = box, position = "topleft", className = "box") %>% 
   addControl(position = "topleft", html = title, className="map-title") %>% 
   htmlwidgets::onRender("function(el, x) {
-        L.control.zoom({ position: 'topright' }).addTo(this)
+        L.control.zoom({ position: 'topleft' }).addTo(this)
    if (L.Browser.mobile) {
    map.removeControl(map.L.control.zoom);
 } }") %>%
