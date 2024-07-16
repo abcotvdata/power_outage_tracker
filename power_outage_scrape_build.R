@@ -220,7 +220,7 @@ bayarea_outage_map <- leaflet(options = leafletOptions(zoomControl = FALSE, hove
                  labelOptions = labelOptions(
                    direction = "auto")) %>%
   addSearchOSM(options = searchOptions(collapsed=FALSE, minLength = 3,zoom=13, position="topleft", autoCollapse = TRUE,
-    hideMarkerOnCollapse = TRUE)) %>% 
+    hideMarkerOnCollapse = TRUE, autoResize = FALSE)) %>% 
   onRender("function(el, x) {
         $('input.search-input')[0].placeholder = 'Search your address'
         }") %>%
@@ -257,8 +257,8 @@ bayarea_outage_map <- leaflet(options = leafletOptions(zoomControl = FALSE, hove
                      autoPanPaddingTopLeft=c(100,120)),
                  labelOptions = labelOptions(
                    direction = "auto")) %>%
-  addSearchOSM(options = searchOptions(collapsed=FALSE, minLength = 3,zoom=13,   position="topleft", autoCollapse = TRUE,
-    hideMarkerOnCollapse = TRUE)) %>% 
+  addSearchOSM(options = searchOptions(collapsed=FALSE, minLength = 3,zoom=13, position="topleft", autoCollapse = TRUE,
+    hideMarkerOnCollapse = TRUE, autoResize = FALSE)) %>% 
   onRender("function(el, x) {
         $('input.search-input')[0].placeholder = 'Search your address'
         }") %>%
@@ -295,8 +295,8 @@ fresno_outage_map <- leaflet(options = leafletOptions(zoomControl = FALSE, hover
                      autoPanPaddingTopLeft=c(100,120)),
                  labelOptions = labelOptions(
                    direction = "auto")) %>%
-  addSearchOSM(options = searchOptions(collapsed=FALSE, minLength = 3,zoom=13,   position="topleft", autoCollapse = TRUE,
-    hideMarkerOnCollapse = TRUE)) %>% 
+  addSearchOSM(options = searchOptions(collapsed=FALSE, minLength = 3,zoom=13, position="topleft", autoCollapse = TRUE,
+    hideMarkerOnCollapse = TRUE, autoResize = FALSE)) %>% 
   onRender("function(el, x) {
         $('input.search-input')[0].placeholder = 'Search your address'
         }") %>%
@@ -333,8 +333,8 @@ ca_outage_map <- leaflet(options = leafletOptions(zoomControl = FALSE, hoverToWa
                      autoPanPaddingTopLeft=c(100,120)),
                  labelOptions = labelOptions(
                    direction = "auto")) %>%
-  addSearchOSM(options = searchOptions(collapsed=FALSE, minLength = 3,zoom=13,   position="topleft", autoCollapse = TRUE,
-    hideMarkerOnCollapse = TRUE)) %>% 
+  addSearchOSM(options = searchOptions(collapsed=FALSE, minLength = 3,zoom=13, position="topleft", autoCollapse = TRUE,
+    hideMarkerOnCollapse = TRUE, autoResize = FALSE)) %>% 
   onRender("function(el, x) {
         $('input.search-input')[0].placeholder = 'Search your address'
         }") %>%
