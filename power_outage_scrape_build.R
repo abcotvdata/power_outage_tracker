@@ -219,8 +219,8 @@ bayarea_outage_map <- leaflet(options = leafletOptions(zoomControl = FALSE, hove
                      autoPanPaddingTopLeft=c(100,120)),
                  labelOptions = labelOptions(
                    direction = "auto")) %>%
-  addSearchOSM(options = searchOptions(collapsed=FALSE, minLength = 7,zoom=13, position="topleft", autoCollapse = TRUE,
-    hideMarkerOnCollapse = TRUE, autoResize = TRUE)) %>% 
+  addSearchOSM(options = searchOptions(collapsed=FALSE, minLength = 3,zoom=13, position="topleft", autoCollapse = TRUE,
+    hideMarkerOnCollapse = TRUE)) %>% 
   onRender("function(el, x) {
         $('input.search-input')[0].placeholder = 'Search your address'
         }") %>%
