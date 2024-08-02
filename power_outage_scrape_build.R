@@ -193,6 +193,13 @@ tag.map.box <- tags$style(HTML("
 box <- tags$div(
   tag.map.box, HTML("<div> </div>"))
 
+
+tag.leaflet.control.search <- tags$style(HTML("
+  .leaflet-control-search.search-input {
+    width: 300px; !important;
+  }
+"))
+
 # actual maps
 
 bayarea_outage_map <- leaflet(options = leafletOptions(zoomControl = FALSE, hoverToWake=FALSE, attributionControl=TRUE)) %>%
