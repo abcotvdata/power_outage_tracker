@@ -229,9 +229,6 @@ bayarea_outage_map <- leaflet(options = leafletOptions(zoomControl = FALSE, hove
                    direction = "auto")) %>%
   addSearchOSM(options = searchOptions(collapsed=FALSE, minLength = 3,zoom=13, position="topleft", autoCollapse = TRUE,
     hideMarkerOnCollapse = TRUE, autoResize = FALSE, textPlaceholder = "Search your address")) %>% 
-  #onRender("function(el, x) {
-  #      $('input.search-input')[0].placeholder = 'Search your address'
-  #      }") %>%
    addLegendFactor(pal = factorPal,
                   fillOpacity = .7,
                   values = sort_val,
@@ -266,10 +263,7 @@ bayarea_outage_map <- leaflet(options = leafletOptions(zoomControl = FALSE, hove
                  labelOptions = labelOptions(
                    direction = "auto")) %>%
   addSearchOSM(options = searchOptions(collapsed=FALSE, minLength = 3,zoom=13, position="topleft", autoCollapse = TRUE,
-    hideMarkerOnCollapse = TRUE, autoResize = FALSE)) %>% 
-  onRender("function(el, x) {
-        $('input.search-input')[0].placeholder = 'Search your address'
-        }") %>%
+    hideMarkerOnCollapse = TRUE, autoResize = FALSE, textPlaceholder = "Search your address")) %>% 
    addLegendFactor(pal = factorPal,
                   fillOpacity = .7,
                   values = sort_val,
@@ -304,10 +298,7 @@ fresno_outage_map <- leaflet(options = leafletOptions(zoomControl = FALSE, hover
                  labelOptions = labelOptions(
                    direction = "auto")) %>%
   addSearchOSM(options = searchOptions(collapsed=FALSE, minLength = 3,zoom=13, position="topleft", autoCollapse = TRUE,
-    hideMarkerOnCollapse = TRUE, autoResize = FALSE)) %>% 
-  onRender("function(el, x) {
-        $('input.search-input')[0].placeholder = 'Search your address'
-        }") %>%
+    hideMarkerOnCollapse = TRUE, autoResize = FALSE, textPlaceholder = "Search your address")) %>% 
    addLegendFactor(pal = factorPal,
                   fillOpacity = .7,
                   values = sort_val,
@@ -342,10 +333,7 @@ ca_outage_map <- leaflet(options = leafletOptions(zoomControl = FALSE, hoverToWa
                  labelOptions = labelOptions(
                    direction = "auto")) %>%
   addSearchOSM(options = searchOptions(collapsed=FALSE, minLength = 3,zoom=13, position="topleft", autoCollapse = TRUE,
-    hideMarkerOnCollapse = TRUE, autoResize = FALSE)) %>% 
-  onRender("function(el, x) {
-        $('input.search-input')[0].placeholder = 'Search your address'
-        }") %>%
+    hideMarkerOnCollapse = TRUE, autoResize = FALSE, textPlaceholder = "Search your address")) %>% 
    addLegendFactor(pal = factorPal,
                   fillOpacity = .7,
                   values = sort_val,
