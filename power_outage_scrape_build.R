@@ -194,7 +194,7 @@ box <- tags$div(
   tag.map.box, HTML("<div> </div>"))
 
 
-tag.leaflet.control.search.search-input <- tags$style(HTML("
+tag.leaflet.control.search <- tags$style(HTML("
   .leaflet-control-search.search-input {
     width: 300px; !important;
   }
