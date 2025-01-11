@@ -3,7 +3,33 @@
   "features" : [
     {
       "type" : "Feature", 
-      "id" : 35270822, 
+      "id" : 35270939, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -117.112613377, 32.9111404049
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 35270939, 
+        "UtilityCompany" : "SDGE", 
+        "StartDate" : 1736607600000, 
+        "EstimatedRestoreDate" : 1736650800000, 
+        "Cause" : "The start time for today's planned outage has been delayed, however the outage will still occur today.", 
+        "ImpactedCustomers" : 0, 
+        "County" : null, 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Planned", 
+        "GlobalID" : "54ad1890-97ad-41c7-8459-b9fb61be47d7", 
+        "OutageTypeColor" : "#a8a800", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "1160659"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 35270940, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -12,7 +38,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270822, 
+        "OBJECTID" : 35270940, 
         "UtilityCompany" : "SMUD", 
         "StartDate" : 1736587320000, 
         "EstimatedRestoreDate" : 1736636400000, 
@@ -21,7 +47,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "3c451802-7cdb-4c69-b8af-39726c44bde4", 
+        "GlobalID" : "234558e2-5ce3-43ce-b38d-7c10aaf839a0", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "D25011100004"
@@ -29,7 +55,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270823, 
+      "id" : 35270941, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -38,7 +64,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270823, 
+        "OBJECTID" : 35270941, 
         "UtilityCompany" : "SCE", 
         "StartDate" : 1736150636000, 
         "EstimatedRestoreDate" : 1736188200000, 
@@ -47,7 +73,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Planned", 
-        "GlobalID" : "f8515935-712d-44cc-852d-20d84c7b9476", 
+        "GlobalID" : "fd72fd3a-0990-40b6-af60-1d346fc944f3", 
         "OutageTypeColor" : "#a8a800", 
         "OutageStatusColor" : null, 
         "IncidentId" : "SCE 131987579"
@@ -55,7 +81,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270824, 
+      "id" : 35270942, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -64,7 +90,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270824, 
+        "OBJECTID" : 35270942, 
         "UtilityCompany" : "SCE", 
         "StartDate" : 1736394473000, 
         "EstimatedRestoreDate" : null, 
@@ -73,7 +99,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "9f01d851-bce9-49bb-aab2-c440220b8e6d", 
+        "GlobalID" : "f3cabc12-65e1-43b4-921d-8dde5e83cdce", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "SCE 132063712"
@@ -81,59 +107,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270825, 
-      "geometry" : 
-      {
-        "type" : "Point", 
-        "coordinates" : [
-          -118.71309725, 34.3996205000484
-        ]
-      }, 
-      "properties" : {
-        "OBJECTID" : 35270825, 
-        "UtilityCompany" : "SCE", 
-        "StartDate" : 1736250428000, 
-        "EstimatedRestoreDate" : null, 
-        "Cause" : "Analyzing Problem", 
-        "ImpactedCustomers" : 70, 
-        "County" : null, 
-        "OutageStatus" : "Active", 
-        "OutageType" : "Not Planned", 
-        "GlobalID" : "8a1e9d76-0300-44c7-abd4-c59aae1a01f5", 
-        "OutageTypeColor" : "#ffaa00", 
-        "OutageStatusColor" : null, 
-        "IncidentId" : "SCE 132000630"
-      }
-    }, 
-    {
-      "type" : "Feature", 
-      "id" : 35270826, 
-      "geometry" : 
-      {
-        "type" : "Point", 
-        "coordinates" : [
-          -117.642422, 34.0180130000037
-        ]
-      }, 
-      "properties" : {
-        "OBJECTID" : 35270826, 
-        "UtilityCompany" : "SCE", 
-        "StartDate" : 1736555358000, 
-        "EstimatedRestoreDate" : 1736605800000, 
-        "Cause" : "Equipment Problems", 
-        "ImpactedCustomers" : 1, 
-        "County" : null, 
-        "OutageStatus" : "Active", 
-        "OutageType" : "Not Planned", 
-        "GlobalID" : "8b1d822d-93cc-427e-b640-85f1f286b251", 
-        "OutageTypeColor" : "#ffaa00", 
-        "OutageStatusColor" : null, 
-        "IncidentId" : "SCE 132064508"
-      }
-    }, 
-    {
-      "type" : "Feature", 
-      "id" : 35270827, 
+      "id" : 35270943, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -142,7 +116,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270827, 
+        "OBJECTID" : 35270943, 
         "UtilityCompany" : "SCE", 
         "StartDate" : 1736538053000, 
         "EstimatedRestoreDate" : 1736631000000, 
@@ -151,7 +125,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "5ad6eedb-959c-4ead-ad6f-b7d0a02bb2b8", 
+        "GlobalID" : "9d56ffed-de7b-418c-a171-010736a29268", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "SCE 132063831"
@@ -159,33 +133,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270828, 
-      "geometry" : 
-      {
-        "type" : "Point", 
-        "coordinates" : [
-          -117.434317, 34.0931980000037
-        ]
-      }, 
-      "properties" : {
-        "OBJECTID" : 35270828, 
-        "UtilityCompany" : "SCE", 
-        "StartDate" : 1736543312000, 
-        "EstimatedRestoreDate" : 1736616600000, 
-        "Cause" : "Equipment Problems", 
-        "ImpactedCustomers" : 17, 
-        "County" : null, 
-        "OutageStatus" : "Active", 
-        "OutageType" : "Not Planned", 
-        "GlobalID" : "fed4636b-fdc3-4398-9e90-d61ea8e08183", 
-        "OutageTypeColor" : "#ffaa00", 
-        "OutageStatusColor" : null, 
-        "IncidentId" : "SCE 132064184"
-      }
-    }, 
-    {
-      "type" : "Feature", 
-      "id" : 35270829, 
+      "id" : 35270944, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -194,7 +142,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270829, 
+        "OBJECTID" : 35270944, 
         "UtilityCompany" : "SCE", 
         "StartDate" : 1736557456000, 
         "EstimatedRestoreDate" : null, 
@@ -203,7 +151,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "310a50d2-677e-45e1-8b77-c1e022cabca1", 
+        "GlobalID" : "2bc27eaa-1365-4b27-a5e7-4357cd8552b2", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "SCE 132064540"
@@ -211,7 +159,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270830, 
+      "id" : 35270945, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -220,7 +168,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270830, 
+        "OBJECTID" : 35270945, 
         "UtilityCompany" : "SCE", 
         "StartDate" : 1736285228000, 
         "EstimatedRestoreDate" : null, 
@@ -229,7 +177,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "e7bd696e-29e7-4d35-9344-a1050a5a2689", 
+        "GlobalID" : "fe46b3e3-ce1e-41b2-802a-6735ae890ff3", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "SCE 132019056"
@@ -237,7 +185,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270831, 
+      "id" : 35270946, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -246,16 +194,16 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270831, 
+        "OBJECTID" : 35270946, 
         "UtilityCompany" : "SCE", 
         "StartDate" : 1736542067000, 
-        "EstimatedRestoreDate" : 1736600400000, 
+        "EstimatedRestoreDate" : 1736686800000, 
         "Cause" : "Equipment Problems", 
         "ImpactedCustomers" : 5, 
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "172bd7ef-400a-4cc7-883a-4195cf8404eb", 
+        "GlobalID" : "a13f18a9-2f5d-4669-a427-481ac4c89d4c", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "SCE 132064146"
@@ -263,7 +211,33 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270832, 
+      "id" : 35270947, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -116.9117565, 34.2365995000227
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 35270947, 
+        "UtilityCompany" : "SCE", 
+        "StartDate" : 1736281136000, 
+        "EstimatedRestoreDate" : null, 
+        "Cause" : "Storm Conditions", 
+        "ImpactedCustomers" : 0, 
+        "County" : null, 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "3d61a3eb-3097-46ee-b8ae-bf38bcbec371", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "SCE 132013648"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 35270948, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -272,7 +246,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270832, 
+        "OBJECTID" : 35270948, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736529420000, 
         "EstimatedRestoreDate" : 1736551800000, 
@@ -281,7 +255,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Planned", 
-        "GlobalID" : "94393f81-16fd-4015-88ab-7bd8ab283d4a", 
+        "GlobalID" : "422e11b8-d0c8-494c-991b-d8ad5ad1f0c0", 
         "OutageTypeColor" : "#a8a800", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2680590"
@@ -289,33 +263,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270833, 
-      "geometry" : 
-      {
-        "type" : "Point", 
-        "coordinates" : [
-          -122.08631, 37.88045
-        ]
-      }, 
-      "properties" : {
-        "OBJECTID" : 35270833, 
-        "UtilityCompany" : "PGE", 
-        "StartDate" : 1736533195000, 
-        "EstimatedRestoreDate" : 1736647200000, 
-        "Cause" : "DAMGE UG CABLE", 
-        "ImpactedCustomers" : 0, 
-        "County" : null, 
-        "OutageStatus" : "Active", 
-        "OutageType" : "Not Planned", 
-        "GlobalID" : "92c12bc2-edc0-4ef9-8040-4063e0631bd5", 
-        "OutageTypeColor" : "#ffaa00", 
-        "OutageStatusColor" : null, 
-        "IncidentId" : "2680650"
-      }
-    }, 
-    {
-      "type" : "Feature", 
-      "id" : 35270834, 
+      "id" : 35270949, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -324,7 +272,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270834, 
+        "OBJECTID" : 35270949, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736534677000, 
         "EstimatedRestoreDate" : 1736632800000, 
@@ -333,7 +281,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "87e1ac6d-4ac6-4692-8eee-ad11055ace79", 
+        "GlobalID" : "c2a9453f-7743-48d1-ac00-8034a00be033", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2680679"
@@ -341,7 +289,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270835, 
+      "id" : 35270950, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -350,7 +298,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270835, 
+        "OBJECTID" : 35270950, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736540037000, 
         "EstimatedRestoreDate" : 1736647200000, 
@@ -359,7 +307,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "1e5f94ff-5a00-4c63-adc3-aa4c06703ead", 
+        "GlobalID" : "e2d0fc42-aac6-4a05-834e-99278433f921", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2680751"
@@ -367,7 +315,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270836, 
+      "id" : 35270951, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -376,7 +324,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270836, 
+        "OBJECTID" : 35270951, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736544343000, 
         "EstimatedRestoreDate" : 1736611200000, 
@@ -385,7 +333,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "fcccf837-3507-412a-b6bd-5dcf714ef02e", 
+        "GlobalID" : "f22c5bbc-a278-4b49-83b8-a79a0fc2f9de", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2680806"
@@ -393,7 +341,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270837, 
+      "id" : 35270952, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -402,7 +350,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270837, 
+        "OBJECTID" : 35270952, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736544404000, 
         "EstimatedRestoreDate" : 1736636400000, 
@@ -411,7 +359,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "6fa79c44-ff2b-40bf-b993-72e986a2b373", 
+        "GlobalID" : "7dccde7c-a214-4dd5-8fd7-6a0a1e79d18f", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2680809"
@@ -419,7 +367,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270838, 
+      "id" : 35270953, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -428,7 +376,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270838, 
+        "OBJECTID" : 35270953, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736548656000, 
         "EstimatedRestoreDate" : 1736636400000, 
@@ -437,7 +385,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "69c3483a-2faf-47a9-bde2-49c3ec2198a0", 
+        "GlobalID" : "d718e812-8799-4561-99f2-5efdf0ee938c", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2680847"
@@ -445,33 +393,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270839, 
-      "geometry" : 
-      {
-        "type" : "Point", 
-        "coordinates" : [
-          -122.07408, 37.38805
-        ]
-      }, 
-      "properties" : {
-        "OBJECTID" : 35270839, 
-        "UtilityCompany" : "PGE", 
-        "StartDate" : 1736355980000, 
-        "EstimatedRestoreDate" : 1736629200000, 
-        "Cause" : null, 
-        "ImpactedCustomers" : 87, 
-        "County" : null, 
-        "OutageStatus" : "Active", 
-        "OutageType" : "Not Planned", 
-        "GlobalID" : "0c1fc4da-2a37-4fc2-82b4-d7761aacd550", 
-        "OutageTypeColor" : "#ffaa00", 
-        "OutageStatusColor" : null, 
-        "IncidentId" : "2680901"
-      }
-    }, 
-    {
-      "type" : "Feature", 
-      "id" : 35270840, 
+      "id" : 35270954, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -480,7 +402,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270840, 
+        "OBJECTID" : 35270954, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736554536000, 
         "EstimatedRestoreDate" : 1736640000000, 
@@ -489,7 +411,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "e9b17825-d691-4204-9eed-10a83f553c0b", 
+        "GlobalID" : "6ba13845-3e8d-4f91-94fb-09b7e19cddab", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2680902"
@@ -497,7 +419,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270841, 
+      "id" : 35270955, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -506,7 +428,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270841, 
+        "OBJECTID" : 35270955, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736558048000, 
         "EstimatedRestoreDate" : 1736611200000, 
@@ -515,7 +437,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "dd8f0920-6ac3-4d2b-8ce3-f094ed1f5e10", 
+        "GlobalID" : "3f28e771-fd53-4245-83e1-69b30a213369", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2680929"
@@ -523,7 +445,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270842, 
+      "id" : 35270956, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -532,7 +454,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270842, 
+        "OBJECTID" : 35270956, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736558891000, 
         "EstimatedRestoreDate" : 1736643120000, 
@@ -541,7 +463,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "04fc215b-b3b6-4170-9315-be964ed17b4a", 
+        "GlobalID" : "e9d087e9-28ed-4890-88fd-356c1383c66d", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2680942"
@@ -549,7 +471,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270843, 
+      "id" : 35270957, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -558,7 +480,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270843, 
+        "OBJECTID" : 35270957, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736570640000, 
         "EstimatedRestoreDate" : 1736636400000, 
@@ -567,7 +489,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "ba5cf976-f596-44a7-b19b-329f3c6de0fb", 
+        "GlobalID" : "8556d42a-ed46-4f66-b151-dd48d0fa47dc", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2680981"
@@ -575,7 +497,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270844, 
+      "id" : 35270958, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -584,7 +506,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270844, 
+        "OBJECTID" : 35270958, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736568000000, 
         "EstimatedRestoreDate" : 1736956800000, 
@@ -593,7 +515,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "ce9dd64f-11cc-4b21-b13d-3f3c31cb741d", 
+        "GlobalID" : "39425316-7ae8-40e0-a9c7-2338b45d13a0", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2680988"
@@ -601,7 +523,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270845, 
+      "id" : 35270959, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -610,7 +532,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270845, 
+        "OBJECTID" : 35270959, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736574060000, 
         "EstimatedRestoreDate" : 1736625600000, 
@@ -619,7 +541,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "35161b87-5a8d-4613-a997-704363f0f1cc", 
+        "GlobalID" : "16614937-516e-4f21-9a63-8482b5d03f0c", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2680997"
@@ -627,7 +549,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270846, 
+      "id" : 35270960, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -636,7 +558,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270846, 
+        "OBJECTID" : 35270960, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736574318000, 
         "EstimatedRestoreDate" : 1736618400000, 
@@ -645,7 +567,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "209ffaf9-e7ac-44db-bee7-b0a67e3daa8d", 
+        "GlobalID" : "10beb6c0-6ed3-4e3e-ba52-b452e896d52d", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2680998"
@@ -653,7 +575,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270847, 
+      "id" : 35270961, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -662,7 +584,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270847, 
+        "OBJECTID" : 35270961, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736575351000, 
         "EstimatedRestoreDate" : 1736611200000, 
@@ -671,7 +593,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Planned", 
-        "GlobalID" : "b41a9822-0e70-49a0-8e39-5af74eb41629", 
+        "GlobalID" : "e880c614-50b4-482e-8e0c-291b075b436b", 
         "OutageTypeColor" : "#a8a800", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2681003"
@@ -679,7 +601,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270848, 
+      "id" : 35270962, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -688,7 +610,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270848, 
+        "OBJECTID" : 35270962, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736581380000, 
         "EstimatedRestoreDate" : 1736629200000, 
@@ -697,7 +619,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "2cf46e85-cb03-4ba1-a4f8-6ef78f37d28a", 
+        "GlobalID" : "e470fada-4297-40cf-88f0-1f20a3f60b64", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2681034"
@@ -705,7 +627,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270849, 
+      "id" : 35270963, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -714,7 +636,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270849, 
+        "OBJECTID" : 35270963, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736589240000, 
         "EstimatedRestoreDate" : 1736610300000, 
@@ -723,7 +645,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "1e8bdc9c-bd21-4141-b136-3d824a73007f", 
+        "GlobalID" : "a5871f70-24e7-4bd9-ac64-42a50df59c80", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2681080"
@@ -731,7 +653,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270850, 
+      "id" : 35270964, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -740,7 +662,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270850, 
+        "OBJECTID" : 35270964, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736596999000, 
         "EstimatedRestoreDate" : 1736613000000, 
@@ -749,7 +671,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "0fc8ea74-51d5-4d49-bbcf-eaf3909c705e", 
+        "GlobalID" : "03be0a02-de06-4809-9d1d-5492e9e73442", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2681086"
@@ -757,7 +679,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270851, 
+      "id" : 35270965, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -766,7 +688,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270851, 
+        "OBJECTID" : 35270965, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736600509000, 
         "EstimatedRestoreDate" : 1736632800000, 
@@ -775,7 +697,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "cd74bdd7-e164-48a5-baf8-f6685d05e067", 
+        "GlobalID" : "df9ceb08-48c4-4476-a235-5c2d08f97364", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2681094"
@@ -783,59 +705,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270852, 
-      "geometry" : 
-      {
-        "type" : "Point", 
-        "coordinates" : [
-          -121.74256, 38.55663
-        ]
-      }, 
-      "properties" : {
-        "OBJECTID" : 35270852, 
-        "UtilityCompany" : "PGE", 
-        "StartDate" : 1736601102000, 
-        "EstimatedRestoreDate" : 1736632800000, 
-        "Cause" : "PATROLLING", 
-        "ImpactedCustomers" : 1, 
-        "County" : null, 
-        "OutageStatus" : "Active", 
-        "OutageType" : "Not Planned", 
-        "GlobalID" : "3b0a44ff-da40-4dfa-a4bb-20c255e81478", 
-        "OutageTypeColor" : "#ffaa00", 
-        "OutageStatusColor" : null, 
-        "IncidentId" : "2681098"
-      }
-    }, 
-    {
-      "type" : "Feature", 
-      "id" : 35270853, 
-      "geometry" : 
-      {
-        "type" : "Point", 
-        "coordinates" : [
-          -119.62137, 36.81853
-        ]
-      }, 
-      "properties" : {
-        "OBJECTID" : 35270853, 
-        "UtilityCompany" : "PGE", 
-        "StartDate" : 1736603032000, 
-        "EstimatedRestoreDate" : 1736639100000, 
-        "Cause" : "PATROLLING", 
-        "ImpactedCustomers" : 1, 
-        "County" : null, 
-        "OutageStatus" : "Active", 
-        "OutageType" : "Not Planned", 
-        "GlobalID" : "c7f55cf4-082f-4ef9-8b05-ac7728835e23", 
-        "OutageTypeColor" : "#ffaa00", 
-        "OutageStatusColor" : null, 
-        "IncidentId" : "2681103"
-      }
-    }, 
-    {
-      "type" : "Feature", 
-      "id" : 35270854, 
+      "id" : 35270966, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -844,16 +714,16 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270854, 
+        "OBJECTID" : 35270966, 
         "UtilityCompany" : "PGE", 
-        "StartDate" : 1736603059000, 
+        "StartDate" : 1736603316000, 
         "EstimatedRestoreDate" : 1736640000000, 
-        "Cause" : null, 
-        "ImpactedCustomers" : 2557, 
+        "Cause" : "PATROLLING", 
+        "ImpactedCustomers" : 2456, 
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "d2ab4542-0651-4941-bf2e-d50dedf744aa", 
+        "GlobalID" : "16dcb3cb-a479-4876-927f-570ccf063607", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2681107"
@@ -861,7 +731,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270855, 
+      "id" : 35270967, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -870,7 +740,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270855, 
+        "OBJECTID" : 35270967, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736603160000, 
         "EstimatedRestoreDate" : 1736612100000, 
@@ -879,7 +749,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Planned", 
-        "GlobalID" : "e79e7e71-f3f4-440a-9c9d-503bcbed98c7", 
+        "GlobalID" : "0d2037ab-2563-4d19-b142-c35c92848d9b", 
         "OutageTypeColor" : "#a8a800", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2681108"
@@ -887,25 +757,25 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270856, 
+      "id" : 35270968, 
       "geometry" : 
       {
         "type" : "Point", 
         "coordinates" : [
-          -119.21909, 35.14388
+          -119.25215, 35.09381
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270856, 
+        "OBJECTID" : 35270968, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736603520000, 
         "EstimatedRestoreDate" : 1736640000000, 
-        "Cause" : null, 
-        "ImpactedCustomers" : 1, 
+        "Cause" : "PATROLLING", 
+        "ImpactedCustomers" : 58, 
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "ef363203-bb1b-4be5-9867-3f2738be71c9", 
+        "GlobalID" : "e9e1d19d-3b19-4775-a7dc-34cdc01faef4", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2681112"
@@ -913,7 +783,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270857, 
+      "id" : 35270969, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -922,7 +792,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270857, 
+        "OBJECTID" : 35270969, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736603572000, 
         "EstimatedRestoreDate" : 1736640000000, 
@@ -931,7 +801,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "cb59f13f-27aa-413e-9f66-8d9715dd76bc", 
+        "GlobalID" : "d5abacaf-ece0-4fec-b67f-69e1e09a2606", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2681113"
@@ -939,7 +809,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270858, 
+      "id" : 35270970, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -948,7 +818,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270858, 
+        "OBJECTID" : 35270970, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736603629000, 
         "EstimatedRestoreDate" : 1736617500000, 
@@ -957,7 +827,7 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "e9a0b099-0329-4930-b8ac-f628c642ed78", 
+        "GlobalID" : "3c9cfc0d-b491-4a6f-a10f-f35bcd5ce78e", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2681114"
@@ -965,7 +835,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 35270859, 
+      "id" : 35270971, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -974,7 +844,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 35270859, 
+        "OBJECTID" : 35270971, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1736603814000, 
         "EstimatedRestoreDate" : 1736629200000, 
@@ -983,10 +853,192 @@
         "County" : null, 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "53793a41-c3d6-4add-9ed0-89b4eca69ef1", 
+        "GlobalID" : "a8864619-cce5-4a7d-9333-fdb385a7f5c4", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "2681116"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 35270972, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -119.04188, 35.38661
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 35270972, 
+        "UtilityCompany" : "PGE", 
+        "StartDate" : 1736606771000, 
+        "EstimatedRestoreDate" : 1736625600000, 
+        "Cause" : "PLNND SHUTDOWN", 
+        "ImpactedCustomers" : 1, 
+        "County" : null, 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Planned", 
+        "GlobalID" : "efa38130-4f35-47de-8c63-1a60f4b7d75b", 
+        "OutageTypeColor" : "#a8a800", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "2681121"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 35270973, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -121.9511, 38.36378
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 35270973, 
+        "UtilityCompany" : "PGE", 
+        "StartDate" : 1736603059000, 
+        "EstimatedRestoreDate" : 1736637300000, 
+        "Cause" : null, 
+        "ImpactedCustomers" : 101, 
+        "County" : null, 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "b04eff72-69b2-4dc6-8119-9161d8907bef", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "2681122"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 35270974, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -121.98018, 38.41626
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 35270974, 
+        "UtilityCompany" : "PGE", 
+        "StartDate" : 1736607560000, 
+        "EstimatedRestoreDate" : null, 
+        "Cause" : null, 
+        "ImpactedCustomers" : 15, 
+        "County" : null, 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "6809cd10-1c86-47e7-84be-a4c11df2fc63", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "2681124"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 35270975, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -120.69282, 38.04826
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 35270975, 
+        "UtilityCompany" : "PGE", 
+        "StartDate" : 1736607777000, 
+        "EstimatedRestoreDate" : null, 
+        "Cause" : null, 
+        "ImpactedCustomers" : 1, 
+        "County" : null, 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "4944d6e6-4f43-4438-9ec1-1ff05449d2c7", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "2681125"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 35270976, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -121.23112, 38.19052
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 35270976, 
+        "UtilityCompany" : "PGE", 
+        "StartDate" : 1736607549000, 
+        "EstimatedRestoreDate" : 1736622000000, 
+        "Cause" : "PLNND SHUTDOWN", 
+        "ImpactedCustomers" : 1, 
+        "County" : null, 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Planned", 
+        "GlobalID" : "28e41ba8-d52f-414e-9c7f-334167fcbdc0", 
+        "OutageTypeColor" : "#a8a800", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "2681126"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 35270977, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -122.03253, 37.96915
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 35270977, 
+        "UtilityCompany" : "PGE", 
+        "StartDate" : 1736608080000, 
+        "EstimatedRestoreDate" : null, 
+        "Cause" : null, 
+        "ImpactedCustomers" : 1, 
+        "County" : null, 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "f4752fea-9e78-4716-a926-9c9798079882", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "2681127"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 35270978, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -122.25332, 37.86572
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 35270978, 
+        "UtilityCompany" : "PGE", 
+        "StartDate" : 1736608183000, 
+        "EstimatedRestoreDate" : null, 
+        "Cause" : null, 
+        "ImpactedCustomers" : 1, 
+        "County" : null, 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "5a5e1d5b-a303-40af-9087-5306a307d08c", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "2681128"
       }
     }
   ]
