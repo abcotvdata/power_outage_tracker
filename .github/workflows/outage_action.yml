@@ -18,7 +18,7 @@ jobs:
         run: |
           brew install gdal
       - name: Install dependencies and packages
-        run: Rscript -e 'install.packages(c("tidyverse","stringr","readr","dplyr","tidyr","sf","leaflet","htmlwidgets", "htmltools","leaflet.providers","leaflet.extras","janitor","leaflegend"))'
+        run: Rscript -e 'install.packages(c("tidyverse","stringr","readr","dplyr","tidyr","sf","leaflet","htmlwidgets", "htmltools","leaflet.providers","leaflet.extras","janitor","leaflegend", "munsell"))'
       - name: Get outage info
         run: Rscript power_outage_scrape_build.R
       - name: Commit results
