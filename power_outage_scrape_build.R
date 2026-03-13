@@ -3,13 +3,14 @@ library(tidyr)
 library(readr)
 library(stringr)
 library(leaflet)
-library(leaflet.extras)
 library(leaflet.providers)
 library(leaflegend)
 library(sf)
 library(htmlwidgets)
 library(htmltools)
 library(janitor)
+
+devtools::install_github("trafficonese/leaflet.extras")
 
 # download file
 
