@@ -19,6 +19,9 @@ jobs:
           brew install gdal
       - name: Install dependencies and packages
         run: Rscript -e 'install.packages(c("tidyverse","stringr","readr","dplyr","tidyr","sf","leaflet","htmlwidgets", "htmltools","leaflet.providers","janitor","leaflegend", "munsell", "devtools"))'
+      - name: Install package from GitHub using devtools
+        run: |
+          devtools::install_github("trafficonese/leaflet.extras")
       - name: Get outage info
         run: Rscript power_outage_scrape_build.R
       - name: Commit results
