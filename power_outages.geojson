@@ -3,7 +3,7 @@
   "features" : [
     {
       "type" : "Feature", 
-      "id" : 42826850, 
+      "id" : 42827020, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -12,16 +12,16 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826850, 
+        "OBJECTID" : 42827020, 
         "UtilityCompany" : "SDGE", 
         "StartDate" : 1787405160000, 
-        "EstimatedRestoreDate" : 1787418000000, 
-        "Cause" : "The cause of the outage is unknown and still under investigation.", 
+        "EstimatedRestoreDate" : 1787432400000, 
+        "Cause" : "A vehicle has come into contact with our electric system and our crews are currently on scene making repairs.", 
         "ImpactedCustomers" : 1, 
         "County" : "SAN DIEGO", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "3408f817-48ed-4b6d-bab9-6907db6f547c", 
+        "GlobalID" : "a78d3b73-d4e9-438e-8873-2e1bf216cd09", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "1300720"
@@ -29,7 +29,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826851, 
+      "id" : 42827021, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -38,7 +38,33 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826851, 
+        "OBJECTID" : 42827021, 
+        "UtilityCompany" : "SDGE", 
+        "StartDate" : 1787410140000, 
+        "EstimatedRestoreDate" : 1787436000000, 
+        "Cause" : "Upgrading the electric system in your area requires us to turn off the power. Our crews are working to safely restore your electric service by the estimated restoration time.", 
+        "ImpactedCustomers" : 3, 
+        "County" : "SAN DIEGO", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Planned", 
+        "GlobalID" : "2a7022a3-9159-4f19-b2bb-d5b9988776ea", 
+        "OutageTypeColor" : "#a8a800", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "1300724"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827022, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -117.0327331867, 32.9412735284
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827022, 
         "UtilityCompany" : "SDGE", 
         "StartDate" : 1787407200000, 
         "EstimatedRestoreDate" : 1787435400000, 
@@ -47,7 +73,7 @@
         "County" : "SAN DIEGO", 
         "OutageStatus" : "Active", 
         "OutageType" : "Planned", 
-        "GlobalID" : "43a2fd1a-2e81-423d-9e82-eff2d13d47cd", 
+        "GlobalID" : "b1df64fc-69db-4158-afd6-690410781beb", 
         "OutageTypeColor" : "#a8a800", 
         "OutageStatusColor" : null, 
         "IncidentId" : "1299415"
@@ -55,7 +81,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826852, 
+      "id" : 42827023, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -64,7 +90,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826852, 
+        "OBJECTID" : 42827023, 
         "UtilityCompany" : "SMUD", 
         "StartDate" : 1787405400000, 
         "EstimatedRestoreDate" : 1787429700000, 
@@ -73,7 +99,7 @@
         "County" : "SACRAMENTO", 
         "OutageStatus" : "Active", 
         "OutageType" : "Unplanned", 
-        "GlobalID" : "faaedb64-6729-406e-95dd-b2b8138d2528", 
+        "GlobalID" : "dcdb2952-8e9e-45ce-8b53-206e61bcf2f9", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "J26082200010"
@@ -81,7 +107,59 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826853, 
+      "id" : 42827024, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -121.482581887486, 38.5766638301068
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827024, 
+        "UtilityCompany" : "SMUD", 
+        "StartDate" : 1787411040000, 
+        "EstimatedRestoreDate" : null, 
+        "Cause" : "Not yet known", 
+        "ImpactedCustomers" : 1, 
+        "County" : "SACRAMENTO", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Unplanned", 
+        "GlobalID" : "b5e018ae-aecd-431e-9476-47177b4712f8", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "J26082200014"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827025, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -121.38283690602, 38.4375988108749
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827025, 
+        "UtilityCompany" : "SMUD", 
+        "StartDate" : 1787409780000, 
+        "EstimatedRestoreDate" : null, 
+        "Cause" : "Not yet known", 
+        "ImpactedCustomers" : 1, 
+        "County" : "SACRAMENTO", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Unplanned", 
+        "GlobalID" : "e2a12f96-1c98-43d2-8af0-f948b579bfeb", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "J26082200013"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827026, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -90,7 +168,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826853, 
+        "OBJECTID" : 42827026, 
         "UtilityCompany" : "SCE", 
         "StartDate" : 1787346000000, 
         "EstimatedRestoreDate" : 1787425200000, 
@@ -99,7 +177,7 @@
         "County" : "ORANGE", 
         "OutageStatus" : "Active", 
         "OutageType" : "Planned", 
-        "GlobalID" : "84f69f45-4f7e-4b0b-aafd-7ef13b4851bb", 
+        "GlobalID" : "5f69f1a7-2a04-4910-9c8b-fb62b1abca85", 
         "OutageTypeColor" : "#a8a800", 
         "OutageStatusColor" : null, 
         "IncidentId" : "SCE 136396574"
@@ -107,7 +185,33 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826854, 
+      "id" : 42827027, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -119.075190499973, 37.7961281489671
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827027, 
+        "UtilityCompany" : "SCE", 
+        "StartDate" : 1787384276000, 
+        "EstimatedRestoreDate" : 1787437800000, 
+        "Cause" : "Upgrading Equipment", 
+        "ImpactedCustomers" : 5, 
+        "County" : "MONO", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Planned", 
+        "GlobalID" : "6eb5b63b-240e-47e7-b913-539c87362d4c", 
+        "OutageTypeColor" : "#a8a800", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "SCE 136418324"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827028, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -116,7 +220,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826854, 
+        "OBJECTID" : 42827028, 
         "UtilityCompany" : "SCE", 
         "StartDate" : 1787364000000, 
         "EstimatedRestoreDate" : 1787418000000, 
@@ -125,7 +229,7 @@
         "County" : "LOS ANGELES", 
         "OutageStatus" : "Active", 
         "OutageType" : "Planned", 
-        "GlobalID" : "0051b32e-847e-42e4-b0c8-1319dfabab57", 
+        "GlobalID" : "340b0738-72e9-41a1-97f6-3072be238d7d", 
         "OutageTypeColor" : "#a8a800", 
         "OutageStatusColor" : null, 
         "IncidentId" : "SCE 136417881"
@@ -133,7 +237,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826855, 
+      "id" : 42827029, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -142,7 +246,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826855, 
+        "OBJECTID" : 42827029, 
         "UtilityCompany" : "SCE", 
         "StartDate" : 1787349845000, 
         "EstimatedRestoreDate" : 1787441400000, 
@@ -151,7 +255,7 @@
         "County" : "LOS ANGELES", 
         "OutageStatus" : "Active", 
         "OutageType" : "Planned", 
-        "GlobalID" : "5990bd4b-b0c6-4b4b-9518-e209deef728c", 
+        "GlobalID" : "699a2ff4-2f3e-4354-a34b-da7303fdc9a0", 
         "OutageTypeColor" : "#a8a800", 
         "OutageStatusColor" : null, 
         "IncidentId" : "SCE 136413810"
@@ -159,7 +263,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826856, 
+      "id" : 42827030, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -168,7 +272,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826856, 
+        "OBJECTID" : 42827030, 
         "UtilityCompany" : "SCE", 
         "StartDate" : 1787349845000, 
         "EstimatedRestoreDate" : 1787441400000, 
@@ -177,7 +281,7 @@
         "County" : "LOS ANGELES", 
         "OutageStatus" : "Active", 
         "OutageType" : "Planned", 
-        "GlobalID" : "16909f61-1df6-41d9-b170-1d4d63ceb69a", 
+        "GlobalID" : "d797acbf-ad44-4640-a17d-4f94ad87cdbe", 
         "OutageTypeColor" : "#a8a800", 
         "OutageStatusColor" : null, 
         "IncidentId" : "SCE 136413787"
@@ -185,33 +289,33 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826857, 
+      "id" : 42827031, 
       "geometry" : 
       {
         "type" : "Point", 
         "coordinates" : [
-          -119.350095408608, 36.2380054896589
+          -117.96493707779, 33.7764422969933
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826857, 
+        "OBJECTID" : 42827031, 
         "UtilityCompany" : "SCE", 
-        "StartDate" : 1787379423000, 
-        "EstimatedRestoreDate" : null, 
-        "Cause" : "Analyzing Problem", 
-        "ImpactedCustomers" : 71, 
-        "County" : "TULARE", 
+        "StartDate" : 1787385600000, 
+        "EstimatedRestoreDate" : 1787461200000, 
+        "Cause" : "Upgrading Equipment", 
+        "ImpactedCustomers" : 12, 
+        "County" : "ORANGE", 
         "OutageStatus" : "Active", 
-        "OutageType" : "Not Planned", 
-        "GlobalID" : "7749a6bd-307d-483c-a9d4-c1e068880fae", 
-        "OutageTypeColor" : "#ffaa00", 
+        "OutageType" : "Planned", 
+        "GlobalID" : "40236508-7233-41d7-a5ea-7423f0a2adeb", 
+        "OutageTypeColor" : "#a8a800", 
         "OutageStatusColor" : null, 
-        "IncidentId" : "SCE 136463729"
+        "IncidentId" : "SCE 136407706"
       }
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826858, 
+      "id" : 42827032, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -220,7 +324,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826858, 
+        "OBJECTID" : 42827032, 
         "UtilityCompany" : "SCE", 
         "StartDate" : 1787349366000, 
         "EstimatedRestoreDate" : null, 
@@ -229,7 +333,7 @@
         "County" : "LOS ANGELES", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "a5c70a15-ac25-4389-9c11-26fe643310e1", 
+        "GlobalID" : "c3397472-2d70-4e12-a507-2a6f6b7f8852", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "SCE 136463125"
@@ -237,7 +341,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826859, 
+      "id" : 42827033, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -246,7 +350,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826859, 
+        "OBJECTID" : 42827033, 
         "UtilityCompany" : "SCE", 
         "StartDate" : 1787367668000, 
         "EstimatedRestoreDate" : 1787418000000, 
@@ -255,7 +359,7 @@
         "County" : "LOS ANGELES", 
         "OutageStatus" : "Active", 
         "OutageType" : "Planned", 
-        "GlobalID" : "bdd3a626-3bca-4d3b-ada0-204caed61a5a", 
+        "GlobalID" : "cbce922b-b2bb-4ff2-b660-c28a85e75e1b", 
         "OutageTypeColor" : "#a8a800", 
         "OutageStatusColor" : null, 
         "IncidentId" : "SCE 136418975"
@@ -263,7 +367,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826860, 
+      "id" : 42827034, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -272,7 +376,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826860, 
+        "OBJECTID" : 42827034, 
         "UtilityCompany" : "SCE", 
         "StartDate" : 1787354271000, 
         "EstimatedRestoreDate" : 1787432400000, 
@@ -281,7 +385,7 @@
         "County" : "SAN BERNARDINO", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "dbd98b0a-409c-4720-a09d-fd3c44db42e3", 
+        "GlobalID" : "c030a4de-0321-4665-b5be-a26a1e6f7f35", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "SCE 136463332"
@@ -289,7 +393,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826861, 
+      "id" : 42827035, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -298,7 +402,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826861, 
+        "OBJECTID" : 42827035, 
         "UtilityCompany" : "SCE", 
         "StartDate" : 1787367679000, 
         "EstimatedRestoreDate" : 1787418000000, 
@@ -307,7 +411,7 @@
         "County" : "LOS ANGELES", 
         "OutageStatus" : "Active", 
         "OutageType" : "Planned", 
-        "GlobalID" : "1e20bfa6-7bdc-4089-b9e7-e8388ad2335f", 
+        "GlobalID" : "8e4f21da-6c24-4126-b9fa-59a742dc1be4", 
         "OutageTypeColor" : "#a8a800", 
         "OutageStatusColor" : null, 
         "IncidentId" : "SCE 136418989"
@@ -315,7 +419,33 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826862, 
+      "id" : 42827036, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -119.348794162315, 36.2370341332774
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827036, 
+        "UtilityCompany" : "SCE", 
+        "StartDate" : 1787384082000, 
+        "EstimatedRestoreDate" : 1787418000000, 
+        "Cause" : "Traffic Accident", 
+        "ImpactedCustomers" : 310, 
+        "County" : "TULARE", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "5b2ffd21-5231-4bc4-a6f6-3e01d055f5be", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "SCE 136463887"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827037, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -324,7 +454,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826862, 
+        "OBJECTID" : 42827037, 
         "UtilityCompany" : "SCE", 
         "StartDate" : 1787360360000, 
         "EstimatedRestoreDate" : null, 
@@ -333,7 +463,7 @@
         "County" : "VENTURA", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "17a83da6-32dc-4fce-ae1c-085bbddead6d", 
+        "GlobalID" : "61c840a9-83fd-417d-a760-7531309d8f8e", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "SCE 136463448"
@@ -341,7 +471,33 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826863, 
+      "id" : 42827038, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -118.4934660865, 35.5859253472667
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827038, 
+        "UtilityCompany" : "SCE", 
+        "StartDate" : 1787383724000, 
+        "EstimatedRestoreDate" : 1787412600000, 
+        "Cause" : "Equipment Problems", 
+        "ImpactedCustomers" : 6, 
+        "County" : "KERN", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "ec4662f3-18b5-4602-8e06-90394c7f3f47", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "SCE 136463876"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827039, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -350,7 +506,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826863, 
+        "OBJECTID" : 42827039, 
         "UtilityCompany" : "SCE", 
         "StartDate" : 1787302414000, 
         "EstimatedRestoreDate" : 1787421600000, 
@@ -359,7 +515,7 @@
         "County" : "LOS ANGELES", 
         "OutageStatus" : "Active", 
         "OutageType" : "Planned", 
-        "GlobalID" : "70a67661-11d8-4cfc-b9ac-b31f186a62ec", 
+        "GlobalID" : "43b81cb8-6dc6-44bc-addb-d9d966e383b2", 
         "OutageTypeColor" : "#a8a800", 
         "OutageStatusColor" : null, 
         "IncidentId" : "SCE 136404801"
@@ -367,7 +523,33 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826864, 
+      "id" : 42827040, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -117.937741181069, 33.7503254566902
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827040, 
+        "UtilityCompany" : "SCE", 
+        "StartDate" : 1787384046000, 
+        "EstimatedRestoreDate" : 1787432400000, 
+        "Cause" : "Pole Upgrade", 
+        "ImpactedCustomers" : 345, 
+        "County" : "ORANGE", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Planned", 
+        "GlobalID" : "1cf4982c-4789-44b2-92fb-3b757b503f67", 
+        "OutageTypeColor" : "#a8a800", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "SCE 136415973"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827041, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -376,7 +558,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826864, 
+        "OBJECTID" : 42827041, 
         "UtilityCompany" : "SCE", 
         "StartDate" : 1787338883000, 
         "EstimatedRestoreDate" : 1787418000000, 
@@ -385,7 +567,7 @@
         "County" : "LOS ANGELES", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "bdcb2e09-a2b9-4475-9971-10730a92ae5c", 
+        "GlobalID" : "a3826a01-b7d7-4d16-a49e-cf8d7f81483c", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "SCE 136462707"
@@ -393,7 +575,163 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826865, 
+      "id" : 42827042, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -118.509441727107, 34.3816280167296
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827042, 
+        "UtilityCompany" : "SCE", 
+        "StartDate" : 1787386335000, 
+        "EstimatedRestoreDate" : 1787419800000, 
+        "Cause" : "Upgrading Equipment", 
+        "ImpactedCustomers" : 0, 
+        "County" : "LOS ANGELES", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Planned", 
+        "GlobalID" : "6579772a-b885-4b76-931f-b7c6427431bb", 
+        "OutageTypeColor" : "#a8a800", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "SCE 136413352"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827043, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -117.837596065713, 33.6847502964009
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827043, 
+        "UtilityCompany" : "SCE", 
+        "StartDate" : 1787410800000, 
+        "EstimatedRestoreDate" : 1787454000000, 
+        "Cause" : "Upgrading Equipment", 
+        "ImpactedCustomers" : 2, 
+        "County" : "ORANGE", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Planned", 
+        "GlobalID" : "4bd10bcf-e253-464a-8dfb-fe4cbddee94a", 
+        "OutageTypeColor" : "#a8a800", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "SCE 136270371"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827044, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -118.138724055108, 33.861775599894
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827044, 
+        "UtilityCompany" : "SCE", 
+        "StartDate" : 1787385467000, 
+        "EstimatedRestoreDate" : 1787430600000, 
+        "Cause" : "Analyzing Problem", 
+        "ImpactedCustomers" : 15, 
+        "County" : "LOS ANGELES", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "8eea8136-1263-4fdd-a8f2-2c64f15ad882", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "SCE 136463962"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827045, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -117.512591431024, 34.069237781815
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827045, 
+        "UtilityCompany" : "SCE", 
+        "StartDate" : 1787385162000, 
+        "EstimatedRestoreDate" : 1787439600000, 
+        "Cause" : "Analyzing Problem", 
+        "ImpactedCustomers" : 1, 
+        "County" : "SAN BERNARDINO", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "e667c830-90eb-4baa-bb5d-2aad94ca7209", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "SCE 136463931"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827046, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -119.239058530745, 35.7352590362893
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827046, 
+        "UtilityCompany" : "SCE", 
+        "StartDate" : 1787386372000, 
+        "EstimatedRestoreDate" : 1787446800000, 
+        "Cause" : "Upgrading Equipment", 
+        "ImpactedCustomers" : 2, 
+        "County" : "KERN", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Planned", 
+        "GlobalID" : "77f5d9e9-9ccd-4b9b-b3a5-ee0f4c216cda", 
+        "OutageTypeColor" : "#a8a800", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "SCE 136418579"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827047, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -118.07876163549, 33.8799577289131
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827047, 
+        "UtilityCompany" : "SCE", 
+        "StartDate" : 1787383320000, 
+        "EstimatedRestoreDate" : 1787428800000, 
+        "Cause" : "Analyzing Problem", 
+        "ImpactedCustomers" : 42, 
+        "County" : "LOS ANGELES", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "5a37e56b-52a2-415b-a95e-9ef3d172a243", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "SCE 136463905"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827048, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -402,7 +740,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826865, 
+        "OBJECTID" : 42827048, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787321172000, 
         "EstimatedRestoreDate" : 1787340600000, 
@@ -411,7 +749,7 @@
         "County" : "ALAMEDA", 
         "OutageStatus" : "Active", 
         "OutageType" : "Planned", 
-        "GlobalID" : "7345dcee-cf2c-48f1-9385-a1e099961e76", 
+        "GlobalID" : "8439f2f5-dd83-4d66-92bf-54f930ffbd8f", 
         "OutageTypeColor" : "#a8a800", 
         "OutageStatusColor" : null, 
         "IncidentId" : "336858"
@@ -419,7 +757,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826866, 
+      "id" : 42827049, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -428,7 +766,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826866, 
+        "OBJECTID" : 42827049, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787324700000, 
         "EstimatedRestoreDate" : 1787371200000, 
@@ -437,7 +775,7 @@
         "County" : "NAPA", 
         "OutageStatus" : "Active", 
         "OutageType" : "Planned", 
-        "GlobalID" : "45567f77-b840-4c3f-826a-b869929065c7", 
+        "GlobalID" : "577d7d5e-2313-4902-a5ac-15bdaad3d119", 
         "OutageTypeColor" : "#a8a800", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337092"
@@ -445,7 +783,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826867, 
+      "id" : 42827050, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -454,7 +792,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826867, 
+        "OBJECTID" : 42827050, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787344863000, 
         "EstimatedRestoreDate" : 1787414400000, 
@@ -463,7 +801,7 @@
         "County" : "SAN MATEO", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "d26b0026-0145-4d04-8432-b3d05246df91", 
+        "GlobalID" : "173a0054-9ab1-4f5c-adcd-59ee571d01a5", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337341"
@@ -471,7 +809,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826868, 
+      "id" : 42827051, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -480,7 +818,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826868, 
+        "OBJECTID" : 42827051, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787346780000, 
         "EstimatedRestoreDate" : 1787446800000, 
@@ -489,7 +827,7 @@
         "County" : "SAN FRANCISCO", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "bfc91cad-a9f0-42fb-8acb-5d6e1fa14d0f", 
+        "GlobalID" : "0c179545-2316-4fc3-a76c-39f0874074aa", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337390"
@@ -497,33 +835,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826869, 
-      "geometry" : 
-      {
-        "type" : "Point", 
-        "coordinates" : [
-          -122.47758, 38.26247
-        ]
-      }, 
-      "properties" : {
-        "OBJECTID" : 42826869, 
-        "UtilityCompany" : "PGE", 
-        "StartDate" : 1787346870000, 
-        "EstimatedRestoreDate" : 1787425200000, 
-        "Cause" : "REPLCE TXFMR", 
-        "ImpactedCustomers" : 1, 
-        "County" : "SONOMA", 
-        "OutageStatus" : "Active", 
-        "OutageType" : "Not Planned", 
-        "GlobalID" : "195170c0-e167-46e3-9f01-dd6a7ba8a2a9", 
-        "OutageTypeColor" : "#ffaa00", 
-        "OutageStatusColor" : null, 
-        "IncidentId" : "337411"
-      }
-    }, 
-    {
-      "type" : "Feature", 
-      "id" : 42826870, 
+      "id" : 42827052, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -532,7 +844,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826870, 
+        "OBJECTID" : 42827052, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787348007000, 
         "EstimatedRestoreDate" : 1787353200000, 
@@ -541,7 +853,7 @@
         "County" : "FRESNO", 
         "OutageStatus" : "Active", 
         "OutageType" : "Planned", 
-        "GlobalID" : "03b34d54-b517-4e3d-85e4-7625edf7ae0c", 
+        "GlobalID" : "bd8c3fe0-7006-4e50-be09-66b67b225686", 
         "OutageTypeColor" : "#a8a800", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337423"
@@ -549,7 +861,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826871, 
+      "id" : 42827053, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -558,7 +870,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826871, 
+        "OBJECTID" : 42827053, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787375274000, 
         "EstimatedRestoreDate" : 1787409900000, 
@@ -567,7 +879,7 @@
         "County" : "SANTA CLARA", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "931453c1-9312-4e7b-8a0e-62c0cc26d54f", 
+        "GlobalID" : "d7dbe9e2-a841-4a86-890c-7beefc90e49c", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337615"
@@ -575,7 +887,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826872, 
+      "id" : 42827054, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -584,7 +896,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826872, 
+        "OBJECTID" : 42827054, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787379125000, 
         "EstimatedRestoreDate" : 1787414400000, 
@@ -593,7 +905,7 @@
         "County" : "KERN", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "ed0097f4-8b07-4bf4-a1fd-f0b55587a70a", 
+        "GlobalID" : "22cdc135-1f57-4421-b651-250d44a53ae1", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337628"
@@ -601,7 +913,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826873, 
+      "id" : 42827055, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -610,16 +922,16 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826873, 
+        "OBJECTID" : 42827055, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787381640000, 
-        "EstimatedRestoreDate" : 1787409900000, 
+        "EstimatedRestoreDate" : 1787436000000, 
         "Cause" : "BRKN UG EQUIPMNT", 
         "ImpactedCustomers" : 2, 
         "County" : "SAN LUIS OBISPO", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "e3cc2f70-4b86-4509-ae8f-c854c7de64b9", 
+        "GlobalID" : "15e431b2-7c3a-4334-b020-2de561446f66", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337641"
@@ -627,7 +939,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826874, 
+      "id" : 42827056, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -636,7 +948,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826874, 
+        "OBJECTID" : 42827056, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787384898000, 
         "EstimatedRestoreDate" : 1787419800000, 
@@ -645,7 +957,7 @@
         "County" : "COLUSA", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "8084c33f-19fb-4c29-a719-c3e1df15620f", 
+        "GlobalID" : "a8e3c2b2-7777-4c1a-989e-12d7a3cc64e4", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337649"
@@ -653,7 +965,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826875, 
+      "id" : 42827057, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -662,7 +974,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826875, 
+        "OBJECTID" : 42827057, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787392667000, 
         "EstimatedRestoreDate" : 1787415300000, 
@@ -671,7 +983,7 @@
         "County" : "SANTA CLARA", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "c5ab98d6-3729-4ca7-b106-329358bdf733", 
+        "GlobalID" : "ed845d25-15e8-4899-9869-391abaea1f69", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337655"
@@ -679,7 +991,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826876, 
+      "id" : 42827058, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -688,16 +1000,16 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826876, 
+        "OBJECTID" : 42827058, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787393619000, 
         "EstimatedRestoreDate" : 1787427000000, 
-        "Cause" : "THRD PARTY", 
+        "Cause" : "EMERG REPAIRS", 
         "ImpactedCustomers" : 579, 
         "County" : "SONOMA", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "ceb983ed-dd69-47f1-9195-20f333cea75d", 
+        "GlobalID" : "5f13c6c3-ecc8-4777-8c63-f247b92dd337", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337656"
@@ -705,7 +1017,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826877, 
+      "id" : 42827059, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -714,16 +1026,16 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826877, 
+        "OBJECTID" : 42827059, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787397477000, 
         "EstimatedRestoreDate" : 1787430600000, 
-        "Cause" : null, 
+        "Cause" : "EMERG REPAIRS", 
         "ImpactedCustomers" : 4, 
         "County" : "SONOMA", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "e9bee6ab-e912-4c3a-b75b-146ad62bd0c2", 
+        "GlobalID" : "d9804fb1-d86f-40f6-aff3-461a44df8271", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337658"
@@ -731,7 +1043,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826878, 
+      "id" : 42827060, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -740,7 +1052,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826878, 
+        "OBJECTID" : 42827060, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787397804000, 
         "EstimatedRestoreDate" : 1787434200000, 
@@ -749,7 +1061,7 @@
         "County" : "SANTA CLARA", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "bf7404f6-5d5b-4a09-8b8d-cc697aa66794", 
+        "GlobalID" : "a19e2cb7-2c0d-4930-a521-59da0b3fc0a3", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337661"
@@ -757,7 +1069,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826879, 
+      "id" : 42827061, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -766,7 +1078,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826879, 
+        "OBJECTID" : 42827061, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787402322000, 
         "EstimatedRestoreDate" : 1787417100000, 
@@ -775,7 +1087,7 @@
         "County" : "SANTA CLARA", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "f05b83a5-2597-4040-9e4b-a6989bdcbf0b", 
+        "GlobalID" : "b1daa558-12a3-479d-861e-e59cdd82b0ba", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337665"
@@ -783,7 +1095,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826880, 
+      "id" : 42827062, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -792,16 +1104,16 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826880, 
+        "OBJECTID" : 42827062, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787404236000, 
         "EstimatedRestoreDate" : 1787422500000, 
         "Cause" : "PATROLLING", 
-        "ImpactedCustomers" : 5008, 
+        "ImpactedCustomers" : 960, 
         "County" : "ALAMEDA", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "c502792a-d038-49c0-9e40-bb32b0df841e", 
+        "GlobalID" : "60a7ad9a-3e82-4026-8ebf-a1809abd01d4", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337670"
@@ -809,7 +1121,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826881, 
+      "id" : 42827063, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -818,16 +1130,16 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826881, 
+        "OBJECTID" : 42827063, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787405077000, 
         "EstimatedRestoreDate" : 1787436000000, 
-        "Cause" : null, 
+        "Cause" : "PATROLLING", 
         "ImpactedCustomers" : 1, 
         "County" : "TUOLUMNE", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "3217450c-2863-4a5c-96d3-26d7ca01e098", 
+        "GlobalID" : "8fbc2e81-cc99-4866-98ef-4d0388232929", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337676"
@@ -835,7 +1147,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826882, 
+      "id" : 42827064, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -844,7 +1156,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826882, 
+        "OBJECTID" : 42827064, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787406548000, 
         "EstimatedRestoreDate" : 1787439600000, 
@@ -853,7 +1165,7 @@
         "County" : "SANTA CLARA", 
         "OutageStatus" : "Active", 
         "OutageType" : "Planned", 
-        "GlobalID" : "0f9b9fee-b748-402f-9bea-f890dbb7e57c", 
+        "GlobalID" : "e9e2b1ca-e336-4fc5-990c-249259b4246f", 
         "OutageTypeColor" : "#a8a800", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337678"
@@ -861,7 +1173,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826883, 
+      "id" : 42827065, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -870,16 +1182,16 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826883, 
+        "OBJECTID" : 42827065, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787406571000, 
         "EstimatedRestoreDate" : 1787423400000, 
-        "Cause" : null, 
+        "Cause" : "PATROLLING", 
         "ImpactedCustomers" : 1, 
         "County" : "FRESNO", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "b00cf340-8f67-4979-8e7b-92e05a34c651", 
+        "GlobalID" : "a4676216-6824-49b8-ad37-dd4f5eb844f3", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337679"
@@ -887,33 +1199,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826884, 
-      "geometry" : 
-      {
-        "type" : "Point", 
-        "coordinates" : [
-          -122.40103, 37.78598
-        ]
-      }, 
-      "properties" : {
-        "OBJECTID" : 42826884, 
-        "UtilityCompany" : "PGE", 
-        "StartDate" : 1787406761000, 
-        "EstimatedRestoreDate" : 1787431500000, 
-        "Cause" : null, 
-        "ImpactedCustomers" : 9, 
-        "County" : "SAN FRANCISCO", 
-        "OutageStatus" : "Active", 
-        "OutageType" : "Not Planned", 
-        "GlobalID" : "44b282c5-4da0-44df-bf48-2a26304c4670", 
-        "OutageTypeColor" : "#ffaa00", 
-        "OutageStatusColor" : null, 
-        "IncidentId" : "337680"
-      }
-    }, 
-    {
-      "type" : "Feature", 
-      "id" : 42826885, 
+      "id" : 42827066, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -922,7 +1208,7 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826885, 
+        "OBJECTID" : 42827066, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787406300000, 
         "EstimatedRestoreDate" : 1787434200000, 
@@ -931,7 +1217,7 @@
         "County" : "SAN MATEO", 
         "OutageStatus" : "Active", 
         "OutageType" : "Planned", 
-        "GlobalID" : "bb694b87-e857-4da1-a264-4c6d42458928", 
+        "GlobalID" : "50a90f54-5c0e-46ef-9771-5b7f26b246f7", 
         "OutageTypeColor" : "#a8a800", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337681"
@@ -939,7 +1225,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826886, 
+      "id" : 42827067, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -948,16 +1234,16 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826886, 
+        "OBJECTID" : 42827067, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787407360000, 
-        "EstimatedRestoreDate" : null, 
-        "Cause" : null, 
+        "EstimatedRestoreDate" : 1787424300000, 
+        "Cause" : "PATROLLING", 
         "ImpactedCustomers" : 1, 
         "County" : "NEVADA", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "bcac741b-0f97-4d28-87a0-5ecf30c2dd7e", 
+        "GlobalID" : "07a75ce8-14c0-44be-866b-cac3a3d1790a", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337682"
@@ -965,7 +1251,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826887, 
+      "id" : 42827068, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -974,16 +1260,16 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826887, 
+        "OBJECTID" : 42827068, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787407790000, 
-        "EstimatedRestoreDate" : null, 
+        "EstimatedRestoreDate" : 1787423400000, 
         "Cause" : null, 
         "ImpactedCustomers" : 1, 
         "County" : "TULARE", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "bacd6f5b-623b-4a81-af98-f35a6b072595", 
+        "GlobalID" : "a47a5fd6-5db0-4f48-8dc3-e2e884db31cd", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337684"
@@ -991,7 +1277,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826888, 
+      "id" : 42827069, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -1000,16 +1286,16 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826888, 
+        "OBJECTID" : 42827069, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787407806000, 
-        "EstimatedRestoreDate" : null, 
+        "EstimatedRestoreDate" : 1787420700000, 
         "Cause" : null, 
         "ImpactedCustomers" : 1, 
         "County" : "SAN JOAQUIN", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "6f1b278f-c669-4012-be30-2ddd2a782c8a", 
+        "GlobalID" : "bd93c326-16bd-48e6-af1e-54595a9f36ab", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337685"
@@ -1017,7 +1303,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826889, 
+      "id" : 42827070, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -1026,16 +1312,16 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826889, 
+        "OBJECTID" : 42827070, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787407869000, 
-        "EstimatedRestoreDate" : null, 
+        "EstimatedRestoreDate" : 1787427000000, 
         "Cause" : null, 
         "ImpactedCustomers" : 1, 
         "County" : "SAN FRANCISCO", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "32896286-c363-4e14-b417-b87850045722", 
+        "GlobalID" : "3fbdb123-5cf5-4a27-b09d-d9a7c9ccfe66", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337686"
@@ -1043,7 +1329,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826890, 
+      "id" : 42827071, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -1052,16 +1338,16 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826890, 
+        "OBJECTID" : 42827071, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787407904000, 
-        "EstimatedRestoreDate" : null, 
+        "EstimatedRestoreDate" : 1787420700000, 
         "Cause" : null, 
         "ImpactedCustomers" : 1, 
         "County" : "SUTTER", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "cda22b10-b573-4d99-afe0-d24890cad2cc", 
+        "GlobalID" : "33c2e3ca-ae7e-463b-b9d1-942645ed217e", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337687"
@@ -1069,7 +1355,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826891, 
+      "id" : 42827072, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -1078,16 +1364,16 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826891, 
+        "OBJECTID" : 42827072, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787408106000, 
-        "EstimatedRestoreDate" : null, 
+        "EstimatedRestoreDate" : 1787421600000, 
         "Cause" : null, 
         "ImpactedCustomers" : 1, 
         "County" : "SAN LUIS OBISPO", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "ca19b866-794a-43a1-8622-5faeab80d9b3", 
+        "GlobalID" : "4ee69db4-f8bd-40ce-b21c-fbe2477a58ed", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337688"
@@ -1095,7 +1381,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826892, 
+      "id" : 42827073, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -1104,16 +1390,16 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826892, 
+        "OBJECTID" : 42827073, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787408514000, 
-        "EstimatedRestoreDate" : null, 
+        "EstimatedRestoreDate" : 1787445000000, 
         "Cause" : null, 
         "ImpactedCustomers" : 1, 
         "County" : "MONTEREY", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "1433f8aa-4e0f-4209-8509-9515d97279b7", 
+        "GlobalID" : "149800dd-4072-485f-bf4e-807ccbde6da3", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337689"
@@ -1121,33 +1407,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826893, 
-      "geometry" : 
-      {
-        "type" : "Point", 
-        "coordinates" : [
-          -122.08013, 37.64488
-        ]
-      }, 
-      "properties" : {
-        "OBJECTID" : 42826893, 
-        "UtilityCompany" : "PGE", 
-        "StartDate" : 1787408693000, 
-        "EstimatedRestoreDate" : null, 
-        "Cause" : null, 
-        "ImpactedCustomers" : 49, 
-        "County" : "ALAMEDA", 
-        "OutageStatus" : "Active", 
-        "OutageType" : "Not Planned", 
-        "GlobalID" : "7a0ff310-92c9-41c1-9fb7-a183c6fb095c", 
-        "OutageTypeColor" : "#ffaa00", 
-        "OutageStatusColor" : null, 
-        "IncidentId" : "337690"
-      }
-    }, 
-    {
-      "type" : "Feature", 
-      "id" : 42826894, 
+      "id" : 42827074, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -1156,16 +1416,16 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826894, 
+        "OBJECTID" : 42827074, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787408740000, 
-        "EstimatedRestoreDate" : null, 
-        "Cause" : null, 
+        "EstimatedRestoreDate" : 1787424300000, 
+        "Cause" : "PATROLLING", 
         "ImpactedCustomers" : 1, 
         "County" : "YOLO", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "49defc0b-128f-472b-a85d-83a797968cdb", 
+        "GlobalID" : "21e7d307-939d-4b37-be6b-d626ab8e2307", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337691"
@@ -1173,7 +1433,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826895, 
+      "id" : 42827075, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -1182,16 +1442,16 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826895, 
+        "OBJECTID" : 42827075, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787409074000, 
-        "EstimatedRestoreDate" : null, 
+        "EstimatedRestoreDate" : 1787421600000, 
         "Cause" : null, 
         "ImpactedCustomers" : 1, 
         "County" : "CONTRA COSTA", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "60d69400-3b9c-4134-8bb4-6283342c74f1", 
+        "GlobalID" : "a3e113b7-39f7-49f7-835c-9c2654e95532", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337692"
@@ -1199,7 +1459,7 @@
     }, 
     {
       "type" : "Feature", 
-      "id" : 42826896, 
+      "id" : 42827076, 
       "geometry" : 
       {
         "type" : "Point", 
@@ -1208,19 +1468,357 @@
         ]
       }, 
       "properties" : {
-        "OBJECTID" : 42826896, 
+        "OBJECTID" : 42827076, 
         "UtilityCompany" : "PGE", 
         "StartDate" : 1787409140000, 
-        "EstimatedRestoreDate" : null, 
+        "EstimatedRestoreDate" : 1787421600000, 
         "Cause" : null, 
         "ImpactedCustomers" : 1, 
         "County" : "ALAMEDA", 
         "OutageStatus" : "Active", 
         "OutageType" : "Not Planned", 
-        "GlobalID" : "8dc4ea65-a9c5-4cbe-9239-3f5cde90e8a0", 
+        "GlobalID" : "607c87b1-f120-4606-aa56-a10834d911f8", 
         "OutageTypeColor" : "#ffaa00", 
         "OutageStatusColor" : null, 
         "IncidentId" : "337693"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827077, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -122.23528, 38.08644
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827077, 
+        "UtilityCompany" : "PGE", 
+        "StartDate" : 1787409296000, 
+        "EstimatedRestoreDate" : 1787427900000, 
+        "Cause" : "PATROLLING", 
+        "ImpactedCustomers" : 1, 
+        "County" : "SOLANO", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "ed65b4bb-a11e-4926-9b17-28d2cf851afa", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "337694"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827078, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -122.53285, 37.87054
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827078, 
+        "UtilityCompany" : "PGE", 
+        "StartDate" : 1787409412000, 
+        "EstimatedRestoreDate" : 1787423400000, 
+        "Cause" : null, 
+        "ImpactedCustomers" : 1, 
+        "County" : "MARIN", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "99a248a2-0ff8-4119-a517-32da2236f30c", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "337695"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827079, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -122.40354, 40.01803
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827079, 
+        "UtilityCompany" : "PGE", 
+        "StartDate" : 1787409142000, 
+        "EstimatedRestoreDate" : 1787437800000, 
+        "Cause" : "PLNND SHUTDOWN", 
+        "ImpactedCustomers" : 2, 
+        "County" : "TEHAMA", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Planned", 
+        "GlobalID" : "1151158c-454c-4411-b69d-058304d77528", 
+        "OutageTypeColor" : "#a8a800", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "337696"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827080, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -122.41693, 40.01801
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827080, 
+        "UtilityCompany" : "PGE", 
+        "StartDate" : 1787409208000, 
+        "EstimatedRestoreDate" : 1787436000000, 
+        "Cause" : "PLNND SHUTDOWN", 
+        "ImpactedCustomers" : 3, 
+        "County" : "TEHAMA", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Planned", 
+        "GlobalID" : "18b64204-cb6d-40ed-90ca-321fb9d33e49", 
+        "OutageTypeColor" : "#a8a800", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "337697"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827081, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -122.06353, 37.62088
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827081, 
+        "UtilityCompany" : "PGE", 
+        "StartDate" : 1787409738000, 
+        "EstimatedRestoreDate" : 1787422500000, 
+        "Cause" : null, 
+        "ImpactedCustomers" : 1, 
+        "County" : "ALAMEDA", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "d2f43b6b-6a1e-435e-81a2-90e3ff1f57ad", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "337698"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827082, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -121.76497, 36.95632
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827082, 
+        "UtilityCompany" : "PGE", 
+        "StartDate" : 1787409949000, 
+        "EstimatedRestoreDate" : 1787432400000, 
+        "Cause" : null, 
+        "ImpactedCustomers" : 74, 
+        "County" : "SANTA CRUZ", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "00038d51-59ef-4150-847a-207362184ba7", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "337699"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827083, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -122.0665, 37.34392
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827083, 
+        "UtilityCompany" : "PGE", 
+        "StartDate" : 1787410175000, 
+        "EstimatedRestoreDate" : null, 
+        "Cause" : null, 
+        "ImpactedCustomers" : 1, 
+        "County" : "SANTA CLARA", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "d50a121f-fead-4b9f-80e6-acaedba79981", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "337700"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827084, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -120.56151, 37.18572
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827084, 
+        "UtilityCompany" : "PGE", 
+        "StartDate" : 1787410242000, 
+        "EstimatedRestoreDate" : null, 
+        "Cause" : null, 
+        "ImpactedCustomers" : 3, 
+        "County" : "MERCED", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "e0dcb930-a351-4ca3-b03a-9cf18f2da985", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "337703"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827085, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -122.02084, 38.26588
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827085, 
+        "UtilityCompany" : "PGE", 
+        "StartDate" : 1787410272000, 
+        "EstimatedRestoreDate" : null, 
+        "Cause" : "EMERG REPAIRS", 
+        "ImpactedCustomers" : 28, 
+        "County" : "SOLANO", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "2fb08704-6013-4d65-aea9-90c2c84e891b", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "337704"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827086, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -122.08013, 37.64488
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827086, 
+        "UtilityCompany" : "PGE", 
+        "StartDate" : 1787408693000, 
+        "EstimatedRestoreDate" : 1787434200000, 
+        "Cause" : null, 
+        "ImpactedCustomers" : 1, 
+        "County" : "ALAMEDA", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "56e510e6-fefa-495a-9a28-34e97dee7da6", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "337706"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827087, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -122.47758, 38.26247
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827087, 
+        "UtilityCompany" : "PGE", 
+        "StartDate" : 1787346870000, 
+        "EstimatedRestoreDate" : 1787425200000, 
+        "Cause" : null, 
+        "ImpactedCustomers" : 3, 
+        "County" : "SONOMA", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "be324d90-50a8-4efb-8e80-e75965a9ddaa", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "337707"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827088, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -118.9806, 35.37664
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827088, 
+        "UtilityCompany" : "PGE", 
+        "StartDate" : 1787410659000, 
+        "EstimatedRestoreDate" : null, 
+        "Cause" : null, 
+        "ImpactedCustomers" : 21, 
+        "County" : "KERN", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "b1710bb6-2d30-421e-b74a-ea47f403d954", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "337708"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42827089, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -120.05524, 37.06279
+        ]
+      }, 
+      "properties" : {
+        "OBJECTID" : 42827089, 
+        "UtilityCompany" : "PGE", 
+        "StartDate" : 1787410934000, 
+        "EstimatedRestoreDate" : null, 
+        "Cause" : null, 
+        "ImpactedCustomers" : 1, 
+        "County" : "MADERA", 
+        "OutageStatus" : "Active", 
+        "OutageType" : "Not Planned", 
+        "GlobalID" : "cf1034a7-9ee5-493b-a3d7-5a9579aaa854", 
+        "OutageTypeColor" : "#ffaa00", 
+        "OutageStatusColor" : null, 
+        "IncidentId" : "337709"
       }
     }
   ]
