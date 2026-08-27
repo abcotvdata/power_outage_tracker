@@ -250,7 +250,8 @@ bayarea_outage_map <- leaflet(options = leafletOptions(zoomControl = FALSE, hove
   addMapPane(name = "polygons", zIndex = 410) %>% 
   addMapPane(name = "maplabels", zIndex = 420) %>%
   addMapPane(name = "search", zIndex = 430) %>%
-  addProviderTiles(providers$CartoDB.Positron, options = leafletOptions(zoomControl = FALSE, minZoom = 6, maxZoom = 16, dragging = FALSE)) %>%
+  #addProviderTiles(providers$CartoDB.Positron, options = leafletOptions(zoomControl = FALSE, minZoom = 6, maxZoom = 16, dragging = FALSE)) %>%
+  addTiles(urlTemplate = "https://pmtiles-raster.launch.studioshare.wds.io/styles/grayscale-abc/{z}/{x}/{y}.png", attribution = "ABC OTV \xc2\xb7 \xc2\xa9 Protomaps \xc2\xa9 OpenStreetMap", options = tileOptions(maxNativeZoom = 15, maxZoom = 19)) %>% 
   setView(-118.2426, 34.0549, zoom = 8) %>%
   addCircleMarkers(data = power_outages1,
                  color = getColor(power_outages1),
@@ -320,7 +321,8 @@ ca_outage_map <- leaflet(options = leafletOptions(zoomControl = FALSE, hoverToWa
   addMapPane(name = "polygons", zIndex = 410) %>% 
   addMapPane(name = "maplabels", zIndex = 420) %>%
   addMapPane(name = "search", zIndex = 430) %>%
-  addProviderTiles(providers$CartoDB.Positron, options = leafletOptions(zoomControl = FALSE, minZoom = 6, maxZoom = 16, dragging = FALSE)) %>%
+  #addProviderTiles(providers$CartoDB.Positron, options = leafletOptions(zoomControl = FALSE, minZoom = 6, maxZoom = 16, dragging = FALSE)) %>%
+  addTiles(urlTemplate = "https://pmtiles-raster.launch.studioshare.wds.io/styles/grayscale-abc/{z}/{x}/{y}.png", attribution = "ABC OTV \xc2\xb7 \xc2\xa9 Protomaps \xc2\xa9 OpenStreetMap", options = tileOptions(maxNativeZoom = 15, maxZoom = 19)) %>% 
   setView(-119.4179, 36.7783, zoom = 6) %>%
   addCircleMarkers(data = power_outages1,
                  color = getColor(power_outages1),
